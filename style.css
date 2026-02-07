@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: linear-gradient(#ff9a9e, #fad0c4);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.slider {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  padding-top: 35vh;
+  color: white;
+}
+
+.slide.active {
+  display: block;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  background: rgba(255,255,255,0.7);
+  border: none;
+  font-size: 2em;
+  padding: 8px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
